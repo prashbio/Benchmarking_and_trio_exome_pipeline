@@ -22,14 +22,29 @@ bash pipeline.sh
 ```
 
 Ensure to specify the paths to the reference genome, input directory, and output directory within the script before execution.
-Requirements
 
-    BWA: Burrows-Wheeler Aligner for aligning reads.
-    Picard Tools: For adding read groups and marking duplicates.
-    GATK: Genome Analysis Toolkit for variant calling.
-    Samtools: For manipulating SAM/BAM files.
-    FastQC: For quality control of raw sequencing data.
+## Requirements
 
-Benchmarking
+-**BWA:** Burrows-Wheeler Aligner for aligning reads.
+-**Picard Tools:** For adding read groups and marking duplicates.
+-**GATK:** Genome Analysis Toolkit for variant calling.
+-**Samtools:** For manipulating SAM/BAM files.
+-**FastQC:** For quality control of raw sequencing data.
+
+## Benchmarking
 
 The pipeline records timestamps at the beginning and end of execution to calculate the total time taken. The elapsed time is printed in hours, minutes, and seconds.
+
+## Contributors
+
+- Ranjana Mariyam Raju
+- Ujjwal Prathap Singh
+- Prashant N Suravajhala
+
+License
+
+## LICENSE
+
+
+## Disclaimer
+This pipeline is provided as-is and may require customization to fit your specific environment and data. 
