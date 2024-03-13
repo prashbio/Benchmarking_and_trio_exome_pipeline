@@ -15,10 +15,10 @@ This repository contains a GATK (Genome Analysis Toolkit) pipeline designed to b
 
 ## Usage
 
-Execute the script `pipeline.sh` with appropriate parameters:
+Execute the script `GATK_benchmarking_pipeline.sh` with appropriate parameters:
 
 ```bash
-bash pipeline.sh
+bash GATK_benchmarking_pipeline.sh
 ```
 
 Ensure to specify the paths to the reference genome, input directory, and output directory within the script before execution.
