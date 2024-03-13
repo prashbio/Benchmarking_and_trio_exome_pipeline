@@ -6,7 +6,7 @@ Scripts
 - **gatk_trio_analysis.sh:** This script performs trio exome sample analysis using GATK.
 
 ## Usage
-#VarScan Script
+# VarScan Script
 ```bash
 bash varscan_trio_analysis.sh proband_R1 proband_R2 mother_R1 mother_R2 father_R1 father_R2
 ```
