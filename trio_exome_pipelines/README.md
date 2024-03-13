@@ -1,4 +1,4 @@
-### Trio Exome Sample Analysis
+# Trio Exome Sample Analysis
 This repository contains two scripts for analyzing trio exome samples using different tools: VarScan and GATK (Genome Analysis Toolkit). The VarScan script performs variant calling based on pileup data, while the GATK script utilizes the HaplotypeCaller tool for variant calling.
 Scripts
 
@@ -6,7 +6,7 @@ Scripts
 - **gatk_trio_analysis.sh:** This script performs trio exome sample analysis using GATK.
 
 ## Usage
-# VarScan Script
+### VarScan Script
 ```bash
 bash varscan_trio_analysis.sh proband_R1 proband_R2 mother_R1 mother_R2 father_R1 father_R2
 ```
@@ -17,7 +17,7 @@ bash varscan_trio_analysis.sh proband_R1 proband_R2 mother_R1 mother_R2 father_R
     father_R1: Path to the forward reads of the father sample.
     father_R2: Path to the reverse reads of the father sample.
 
-# GATK Script
+### GATK Script
 ```bash
 bash gatk_trio_analysis.sh ref_genome proband_bam mother_bam father_bam
 ```
