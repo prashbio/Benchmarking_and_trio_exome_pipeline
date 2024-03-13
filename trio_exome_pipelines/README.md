@@ -47,4 +47,5 @@ These scripts are provided as-is and may require customization to fit your speci
 - Ranjana Mariyam Raju
 - Ujjwal Prathap Singh
 - Prashanth N Suravajhala
+- System Genomics Lab, Amrita School of Biotechnology, Kollam, Kerala
 
