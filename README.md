@@ -1,4 +1,4 @@
-# Benchmarking_exome_sequencing_pipeline
+# Benchmarking exome sequencing pipeline
 
 Benchmarking exome pipelines is crucial for evaluating their performance in variant calling and clinical significance annotation. It allows researchers and clinicians to assess accuracy, sensitivity, and specificity, identifying the most effective pipelines. In this study, we compared our in-house consensus exome pipeline (https://github.com/prashbio/CONVEX) with the gold standard Genome Analysis Toolkit (GATK) pipeline using four datasets.  We also performed trio exome analysis using VarScan Trio and GATK joint calling pipelines on our previously published Congenital Pouch Colon (CPC) samples.
 
@@ -24,7 +24,6 @@ bash pipeline.sh
 Ensure to specify the paths to the reference genome, input directory, and output directory within the script before execution.
 
 ## Requirements
-
 -**BWA:** Burrows-Wheeler Aligner for aligning reads.
 -**Picard Tools:** For adding read groups and marking duplicates.
 -**GATK:** Genome Analysis Toolkit for variant calling.
@@ -32,7 +31,6 @@ Ensure to specify the paths to the reference genome, input directory, and output
 -**FastQC:** For quality control of raw sequencing data.
 
 ## Benchmarking
-
 The pipeline records timestamps at the beginning and end of execution to calculate the total time taken. The elapsed time is printed in hours, minutes, and seconds.
 
 ## Contributors
@@ -40,8 +38,6 @@ The pipeline records timestamps at the beginning and end of execution to calcula
 - Ranjana Mariyam Raju
 - Ujjwal Prathap Singh
 - Prashant N Suravajhala
-
-License
 
 ## LICENSE
 
