@@ -39,6 +39,8 @@ bash gatk_trio_analysis.sh ref_genome proband_bam mother_bam father_bam
 - Adjust paths to reference genome, output directories, and tool executables within the scripts as needed.
 - Ensure all required dependencies are installed and accessible in your environment.
 - Make sure input files are in the correct format and follow the expected naming conventions.
+- Each vcf file is annotated with the clinvar records.
+- Clinvar dataset used:  https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20230611.vcf.gz
 
 ## Disclaimer
 These scripts are provided as-is and may require customization to fit your specific environment and data.
