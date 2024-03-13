@@ -45,8 +45,5 @@ The pipeline records timestamps at the beginning and end of execution to calcula
 - Prashanth N Suravajhala
 - System Genomics Lab, Amrita School of Biotechnology, Kollam, Kerala
 
-## LICENSE
-
-
 ## Disclaimer
 This pipeline is provided as-is and may require customization to fit your specific environment and data. 
