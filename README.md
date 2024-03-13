@@ -33,6 +33,11 @@ Ensure to specify the paths to the reference genome, input directory, and output
 ## Benchmarking
 The pipeline records timestamps at the beginning and end of execution to calculate the total time taken. The elapsed time is printed in hours, minutes, and seconds.
 
+## Clinvar Annotation
+- The consensus variants obtained run through downstream analysis of validating with the ClinVar database with further genomic variant filtration as per the American College of Medical Genetics and Genomics (ACMG) and Association of Molecular Pathology (AMP) guidelines.
+- Each vcf file is annotated with the clinvar records. 
+Clinvar dataset used:  https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar_20230611.vcf.gz
+
 ## Contributors
 
 - Ranjana Mariyam Raju
